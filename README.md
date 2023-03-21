@@ -13,3 +13,10 @@
 3. [명예의 전당](https://school.programmers.co.kr/learn/courses/30/lessons/138477)
 4. [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
 5. [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943)
+
+## 7주차 문제:
+1. [햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)
+2. [기사단원의 무기](https://school.programmers.co.kr/learn/courses/30/lessons/136798)
+3. [푸드 파이트 대회](https://school.programmers.co.kr/learn/courses/30/lessons/134240)
+4. [키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)
+5. [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
