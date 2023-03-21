@@ -19,4 +19,4 @@
 2. [기사단원의 무기](https://school.programmers.co.kr/learn/courses/30/lessons/136798)
 3. [푸드 파이트 대회](https://school.programmers.co.kr/learn/courses/30/lessons/134240)
 4. [키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)
-5. [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
+5. [이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930)
