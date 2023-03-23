@@ -2,13 +2,15 @@
 //  main.swift
 //  Lv.1-햄버거_만들기
 //
-//  1차 : 통과 + 실패(시간초과)
+//  1차 : 실패
+//  2차 : 통과 + 실패(시간초과) -> solution2
+//  3차 : 통과 -> solution3
 //  Created by zzee22su on 2023/03/22.
 //
 
 import Foundation
 
-func solution(_ ingredient:[Int]) -> Int {
+func solution2(_ ingredient:[Int]) -> Int {
     var startPosition: [Int] = [] //빵으로(1) 시작하는 ingredient의 원소를 저장하기 위한 변수
     var copyIngredient: [Int] = ingredient
     var togo: Int = 0 //포장할 수 있는 햄버거 개수를 나타내는 변수
@@ -52,16 +54,40 @@ func solution(_ ingredient:[Int]) -> Int {
         }
     }
     return togo
-    
+
 }
 
-print(solution([2, 1, 1, 2, 3, 1, 2, 3, 1])) //2
-print(solution([1, 3, 2, 1, 2, 1, 3, 1, 2])) //0
-print(solution([1, 1, 2, 1, 2, 3, 1, 3, 1, 2, 3, 1])) //3
-print(solution([1, 1, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1])) //3
-print(solution([1, 2, 3, 1, 2, 3, 1, 1, 1, 1, 2, 3, 1, 2, 3, 1, 1, 1, 1, 1, 1, 2, 3, 3, 1, 2, 3, 1, 3, 3, 3, 2, 1, 2, 3, 1])) //5
-print(solution([1, 2, 3, 1, 2, 3, 1, 1, 1, 1, 2, 3, 1, 2, 3, 1, 1, 1, 1, 1, 1, 2, 3, 3, 1])) //3
-print(solution([1, 2, 3, 1, 2, 3, 1, 1, 1, 1, 2, 3, 1, 2, 3, 1])) //3
-print(solution([1, 2, 2, 3, 1])) //0
+
+// 3차시도 통과!!!
+func solution3(_ ingredient:[Int]) -> Int {
+    var standard: [Int] = [1, 2, 3, 1] //빵, 야채, 고기, 빵
+    var temp: [Int] = []
+    var burger: Int = 0 //포장가능한 햄버거 개수
+    
+    for i in ingredient {
+        //재료를 하나씩 추가
+        temp.append(i)
+        if temp.count >= 4 {
+            // 뒤에서부터 4개까지의 원소로 비교
+            // 만약 temp에 [2, 1, 1, 2, 3]까지 들어와있다면 1, 1, 2, 3이 standard 각 원소와 동일한지 확인
+            if temp[temp.count-4...temp.count-1] == standard[0...3] {
+                //동일하면 temp 배열에 재료 삭제
+                temp.removeSubrange(temp.count-4...temp.count-1)
+                burger += 1
+            }
+        }
+    }
+    return burger
+}
+
+
+print(solution3([2, 1, 1, 2, 3, 1, 2, 3, 1])) //2
+print(solution3([1, 3, 2, 1, 2, 1, 3, 1, 2])) //0
+print(solution3([1, 1, 2, 1, 2, 3, 1, 3, 1, 2, 3, 1])) //3
+print(solution3([1, 1, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1])) //3
+print(solution3([1, 2, 3, 1, 2, 3, 1, 1, 1, 1, 2, 3, 1, 2, 3, 1, 1, 1, 1, 1, 1, 2, 3, 3, 1, 2, 3, 1, 3, 3, 3, 2, 1, 2, 3, 1])) //5
+print(solution3([1, 2, 3, 1, 2, 3, 1, 1, 1, 1, 2, 3, 1, 2, 3, 1, 1, 1, 1, 1, 1, 2, 3, 3, 1])) //3
+print(solution3([1, 2, 3, 1, 2, 3, 1, 1, 1, 1, 2, 3, 1, 2, 3, 1])) //3
+print(solution3([1, 2, 2, 3, 1])) //0
 
 
