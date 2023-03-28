@@ -20,3 +20,8 @@
 3. [푸드 파이트 대회](https://school.programmers.co.kr/learn/courses/30/lessons/134240)
 4. [키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)
 5. [이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930)
+
+## 8주차 문제:
+1. [덧칠하기](https://school.programmers.co.kr/learn/courses/30/lessons/161989)
+2. [k번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)
+3. [[1차] 비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)
