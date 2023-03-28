@@ -13,7 +13,6 @@ func solution(_ s:String) -> String {
 
     for i in 0..<temp.count {
         for (key, value) in temp[i].enumerated() {
-            print("key : \(key)")
             if key % 2 == 0 {
                 result += value.uppercased()
             } else {
