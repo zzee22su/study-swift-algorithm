@@ -25,3 +25,8 @@
 1. [덧칠하기](https://school.programmers.co.kr/learn/courses/30/lessons/161989)
 2. [k번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)
 3. [[1차] 비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)
+
+## 9주차 문제:
+1. [대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586)
+2. [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
+3. [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410)
