@@ -58,8 +58,6 @@ func solution(_ new_id:String) -> String {
     
     var suggestId = new_id
     
-    
-    
     // step 1
     suggestId = suggestId.lowercased()
     
