@@ -31,7 +31,7 @@
 2. [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
 3. [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410)
 
-## 9주차 문제(2단계):
+## 10주차 문제(2단계):
 1. [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653)
 2. [연속된 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/178870)
 3. [시소 짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/152996)
