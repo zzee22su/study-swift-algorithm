@@ -37,6 +37,6 @@
 3. [시소 짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/152996)
 
 ## 12주차 문제(코딩테스트 고득점 kit):
-1. [프로세스] (https://school.programmers.co.kr/learn/courses/30/lessons/42587)
-2. [의상] (https://school.programmers.co.kr/learn/courses/30/lessons/42578
-3. [기능개발] (https://school.programmers.co.kr/learn/courses/30/lessons/42586)
+1. [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
+2. [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)
+3. [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
