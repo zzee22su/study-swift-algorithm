@@ -63,7 +63,7 @@ func solution(_ sequence:[Int], _ k:Int) -> [Int] {
         return false
     }
     
-    return answer
+    return answer[0].key
 }
 
 print(solution([1, 2, 3, 4, 5], 7))
