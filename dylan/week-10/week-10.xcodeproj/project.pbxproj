@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC86D0229F40579004406C6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC86D0129F40579004406C6 /* main.swift */; };
+		FCC86D0F29F40581004406C6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC86D0E29F40581004406C6 /* main.swift */; };
+		FCC86D1A29F4058C004406C6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC86D1929F4058C004406C6 /* main.swift */; };
+		FCC86D2529F4059D004406C6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC86D2429F4059D004406C6 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCC86CFC29F40579004406C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FCC86D0A29F40581004406C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FCC86D1529F4058C004406C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FCC86D2029F4059D004406C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FCC86CFE29F40579004406C6 /* week-10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "week-10"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC86D0129F40579004406C6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FCC86D0C29F40581004406C6 /* 마법의 엘리베이터 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "마법의 엘리베이터"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC86D0E29F40581004406C6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "../마법의 엘리베이터/main.swift"; sourceTree = "<group>"; };
+		FCC86D1729F4058C004406C6 /* 연속된 부분 수열의 합 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "연속된 부분 수열의 합"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC86D1929F4058C004406C6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "../연속된 부분 수열의 합/main.swift"; sourceTree = "<group>"; };
+		FCC86D2229F4059D004406C6 /* 시소 짝꿍 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "시소 짝꿍"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC86D2429F4059D004406C6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "../시소 짝꿍/main.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC86CFB29F40579004406C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC86D0929F40581004406C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC86D1429F4058C004406C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC86D1F29F4059D004406C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC86CF529F40579004406C6 = {
+			isa = PBXGroup;
+			children = (
+				FCC86D0029F40579004406C6 /* week-10 */,
+				FCC86D0D29F40581004406C6 /* 마법의 엘리베이터 */,
+				FCC86D1829F4058C004406C6 /* 연속된 부분 수열의 합 */,
+				FCC86D2329F4059D004406C6 /* 시소 짝꿍 */,
+				FCC86CFF29F40579004406C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC86CFF29F40579004406C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC86CFE29F40579004406C6 /* week-10 */,
+				FCC86D0C29F40581004406C6 /* 마법의 엘리베이터 */,
+				FCC86D1729F4058C004406C6 /* 연속된 부분 수열의 합 */,
+				FCC86D2229F4059D004406C6 /* 시소 짝꿍 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC86D0029F40579004406C6 /* week-10 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC86D0129F40579004406C6 /* main.swift */,
+			);
+			path = "week-10";
+			sourceTree = "<group>";
+		};
+		FCC86D0D29F40581004406C6 /* 마법의 엘리베이터 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC86D0E29F40581004406C6 /* main.swift */,
+			);
+			path = "마법의 엘리베이터";
+			sourceTree = "<group>";
+		};
+		FCC86D1829F4058C004406C6 /* 연속된 부분 수열의 합 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC86D1929F4058C004406C6 /* main.swift */,
+			);
+			path = "연속된 부분 수열의 합";
+			sourceTree = "<group>";
+		};
+		FCC86D2329F4059D004406C6 /* 시소 짝꿍 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC86D2429F4059D004406C6 /* main.swift */,
+			);
+			path = "시소 짝꿍";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC86CFD29F40579004406C6 /* week-10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC86D0529F40579004406C6 /* Build configuration list for PBXNativeTarget "week-10" */;
+			buildPhases = (
+				FCC86CFA29F40579004406C6 /* Sources */,
+				FCC86CFB29F40579004406C6 /* Frameworks */,
+				FCC86CFC29F40579004406C6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "week-10";
+			productName = "week-10";
+			productReference = FCC86CFE29F40579004406C6 /* week-10 */;
+			productType = "com.apple.product-type.tool";
+		};
+		FCC86D0B29F40581004406C6 /* 마법의 엘리베이터 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC86D1029F40581004406C6 /* Build configuration list for PBXNativeTarget "마법의 엘리베이터" */;
+			buildPhases = (
+				FCC86D0829F40581004406C6 /* Sources */,
+				FCC86D0929F40581004406C6 /* Frameworks */,
+				FCC86D0A29F40581004406C6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "마법의 엘리베이터";
+			productName = "마법의 엘리베이터";
+			productReference = FCC86D0C29F40581004406C6 /* 마법의 엘리베이터 */;
+			productType = "com.apple.product-type.tool";
+		};
+		FCC86D1629F4058C004406C6 /* 연속된 부분 수열의 합 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC86D1B29F4058C004406C6 /* Build configuration list for PBXNativeTarget "연속된 부분 수열의 합" */;
+			buildPhases = (
+				FCC86D1329F4058C004406C6 /* Sources */,
+				FCC86D1429F4058C004406C6 /* Frameworks */,
+				FCC86D1529F4058C004406C6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "연속된 부분 수열의 합";
+			productName = "연속된 부분 수열의 합";
+			productReference = FCC86D1729F4058C004406C6 /* 연속된 부분 수열의 합 */;
+			productType = "com.apple.product-type.tool";
+		};
+		FCC86D2129F4059D004406C6 /* 시소 짝꿍 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC86D2629F4059D004406C6 /* Build configuration list for PBXNativeTarget "시소 짝꿍" */;
+			buildPhases = (
+				FCC86D1E29F4059D004406C6 /* Sources */,
+				FCC86D1F29F4059D004406C6 /* Frameworks */,
+				FCC86D2029F4059D004406C6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "시소 짝꿍";
+			productName = "시소 짝꿍";
+			productReference = FCC86D2229F4059D004406C6 /* 시소 짝꿍 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC86CF629F40579004406C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FCC86CFD29F40579004406C6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FCC86D0B29F40581004406C6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FCC86D1629F4058C004406C6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FCC86D2129F4059D004406C6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = FCC86CF929F40579004406C6 /* Build configuration list for PBXProject "week-10" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC86CF529F40579004406C6;
+			productRefGroup = FCC86CFF29F40579004406C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC86CFD29F40579004406C6 /* week-10 */,
+				FCC86D0B29F40581004406C6 /* 마법의 엘리베이터 */,
+				FCC86D1629F4058C004406C6 /* 연속된 부분 수열의 합 */,
+				FCC86D2129F4059D004406C6 /* 시소 짝꿍 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC86CFA29F40579004406C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC86D0229F40579004406C6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC86D0829F40581004406C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC86D0F29F40581004406C6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC86D1329F4058C004406C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC86D1A29F4058C004406C6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC86D1E29F4059D004406C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC86D2529F4059D004406C6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FCC86D0329F40579004406C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCC86D0429F40579004406C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FCC86D0629F40579004406C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A575N6QJF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FCC86D0729F40579004406C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A575N6QJF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FCC86D1129F40581004406C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A575N6QJF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FCC86D1229F40581004406C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A575N6QJF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FCC86D1C29F4058C004406C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A575N6QJF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FCC86D1D29F4058C004406C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A575N6QJF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FCC86D2729F4059D004406C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A575N6QJF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FCC86D2829F4059D004406C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A575N6QJF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC86CF929F40579004406C6 /* Build configuration list for PBXProject "week-10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC86D0329F40579004406C6 /* Debug */,
+				FCC86D0429F40579004406C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC86D0529F40579004406C6 /* Build configuration list for PBXNativeTarget "week-10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC86D0629F40579004406C6 /* Debug */,
+				FCC86D0729F40579004406C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC86D1029F40581004406C6 /* Build configuration list for PBXNativeTarget "마법의 엘리베이터" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC86D1129F40581004406C6 /* Debug */,
+				FCC86D1229F40581004406C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC86D1B29F4058C004406C6 /* Build configuration list for PBXNativeTarget "연속된 부분 수열의 합" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC86D1C29F4058C004406C6 /* Debug */,
+				FCC86D1D29F4058C004406C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC86D2629F4059D004406C6 /* Build configuration list for PBXNativeTarget "시소 짝꿍" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC86D2729F4059D004406C6 /* Debug */,
+				FCC86D2829F4059D004406C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC86CF629F40579004406C6 /* Project object */;
+}
