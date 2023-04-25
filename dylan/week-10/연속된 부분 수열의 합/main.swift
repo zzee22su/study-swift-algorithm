@@ -43,7 +43,7 @@ func solution(_ sequence:[Int], _ k:Int) -> [Int] {
         }
     }
     
-    dic.sorted { a, b in
+    let answer = dic.sorted { a, b in
         let aTarget = a.key
         let aInfo = a.value
         let (aIndex, aLength, aCount) = aInfo
@@ -53,11 +53,17 @@ func solution(_ sequence:[Int], _ k:Int) -> [Int] {
         let (bIndex, bLength, bCount) = bInfo
 
         if(aLength > bLength) {
+            if(aCount == bCount) {
+                return aIndex < bIndex
+            }
+            
             return true
         }
+        
+        return false
     }
     
-    return []
+    return answer
 }
 
 print(solution([1, 2, 3, 4, 5], 7))
