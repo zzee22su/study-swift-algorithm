@@ -40,3 +40,7 @@
 1. [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
 2. [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)
 3. [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
+
+## 13주차 문제(코딩테스트 고득점 kit):
+1. [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
+
